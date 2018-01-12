@@ -119,7 +119,7 @@ DEPRECATED_MSG_ATTRIBUTE("Use initWithContactType:name:relation:tintColor:monogr
 /**
     Uniquey idenify contact
  */
-@property (nonatomic, readonly) NSString *identifier;	
+@property (nonatomic, nonnull) NSString *identifier;	
 	
 	
 /**
